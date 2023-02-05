@@ -17,13 +17,13 @@ end
 def solution(book_time)
   arr = to_minutes(arr)
   print arr
-  answer = Array.new(1500,0)
+  answer = Array.new(1500, 0)
   arr.each do |t|
-    (t[0].to_i...t[1].to_i-1).each do |time|
-      #puts time
+    (t[0].to_i...t[1].to_i - 1).each do |time|
+      # puts time
       answer[time] += 1
     end
-    #puts
+    # puts
   end
   answer.compact.max
 end

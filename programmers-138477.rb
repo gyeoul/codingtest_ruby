@@ -8,12 +8,12 @@ def solution(k, score)
   arr = []
   index = 0
   loop do
-    break if index > score.length-1
+    break if index > score.length - 1
     arr << score[index]
-    answer.push(arr.sort.reverse.slice(Range.new(0,k-1)).sort[0])
+    answer.push(arr.sort.reverse.slice(Range.new(0, k - 1)).sort[0])
     index += 1
   end
   return answer
 end
 
-puts solution(k,score)
+puts solution(k, score)
