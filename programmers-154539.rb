@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-numbers1 = [2, 3, 3, 5]	#[3, 5, 5, -1]
-numbers2 = [9, 1, 5, 3, 6, 2]	#[-1, 5, 6, 6, -1, -1]
+numbers1 = [2, 3, 3, 5] #[3, 5, 5, -1]
+numbers2 = [9, 1, 5, 3, 6, 2] #[-1, 5, 6, 6, -1, -1]
 numbers = numbers2
 
 answer = []
